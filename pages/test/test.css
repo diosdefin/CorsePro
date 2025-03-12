@@ -5,6 +5,13 @@
   font-weight: 400;
   font-style: normal;
   scroll-behavior:smooth;}
+  .round-image {
+    width: 150px; /* Установите нужный размер изображения */
+    height: 150px; /* Размер должен быть одинаковым, чтобы сохранить пропорции */
+    border-radius: 50%; /* Этот параметр делает изображение круглым */
+    object-fit: cover; /* Центрирует изображение внутри круга */
+}
+
 body {
   background: #161462;
   display: flex;
